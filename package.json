@@ -26,7 +26,6 @@
     "node": ">=0.6"
   },
   "scripts": {
-    "preinstall": "sudo npm i -g mocha",
     "test": "mocha"
   }
 }
