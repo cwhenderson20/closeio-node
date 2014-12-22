@@ -4,11 +4,11 @@
   "version": "0.0.4",
   "author": "John Wehr <johnwehr@gmail.com>",
   "description": "",
-  "contributors": [ 
+  "contributors": [
     {
       "name": "John Wehr",
       "email": "johnwehr@gmail.com"
-    } 
+    }
   ],
   "main": "./lib/close.io.js",
   "repository": {
@@ -16,7 +16,7 @@
     "url": "git@github.com:elasticsales/closeio-node.git"
   },
   "keywords": [],
-  "dependencies" : {
+  "dependencies": {
     "node-promise": "0.5.8",
     "request": "2.27.0"
   },
@@ -27,5 +27,10 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   }
 }
